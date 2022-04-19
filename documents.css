@@ -1,0 +1,22 @@
+.classa{
+    color: aliceblue;
+    text-decoration: none;
+    border-style: double;
+    border-color: black;
+    padding: 5px;
+    
+
+}
+.classul{
+    list-style-type: none;
+    margin: 50px;
+}
+.myclass{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+text-align: center;
+}
+
+.classli{
+    margin: 30px;
+}

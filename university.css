@@ -1,0 +1,51 @@
+
+.heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input:checked+label:after {
+    content: "Show Less";
+}
+label{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display:inline-block;
+    text-align: center;
+    line-height: 200%;
+    padding: 5px;
+    background-color: aliceblue;
+
+}
+label:hover{
+    color: wheat;
+    background-color: rgb(54, 51, 50);
+    border-color: black;
+}
+label:after {
+    content: "Show More"; 
+     
+}
+input:checked+label:after {
+    content: "Show Less";
+}
+
+input{
+    display: none;
+    
+}
+.more {
+    height: 0px;
+    overflow: hidden;
+}
+input:checked ~ .more{
+    height: 100%;
+}
+#show-more {
+    margin:30px;
+    border: 2px solid rgb(54, 51, 50);
+    border-radius: 10px;
+}
+.imageclass{
+    margin-left: 450px;
+}
+.imageclass:hover{
+    opacity: 0.5;
+}

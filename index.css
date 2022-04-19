@@ -1,0 +1,93 @@
+body{
+background-color: gray; 
+}
+.logo{
+    width: 540px;
+    height: 111px;
+    z-index: 0;
+}
+div{
+    text-align: center;
+}
+.menu{
+    border-color: black;
+    border-style: groove;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    height: 50px;
+}
+.menu li{
+    color: white;
+    display: inline;
+    
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    vertical-align:middle;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+.menu li:hover{
+    background-color: rgb(54, 45, 45);
+    color: white;
+    
+    font-size: xx-large;
+    border-color: rgb(54, 45,45);
+}
+.page{
+    background-color: rgb(54, 45, 45);
+    color: white;
+    
+    font-size: xx-large;
+    border-color: rgb(54, 45,45);
+}
+footer{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    margin-bottom: 0%;
+}
+.paragraph{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px 30px;
+    font-size: large;
+    color: white;
+    text-align:justify;
+    
+}
+
+.studentsul li{
+  
+    visibility: hidden;
+    z-index: 1;
+    display: inline-block;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    
+}
+.studentsul:hover li{
+    visibility: visible;
+    background-color: rgb(54, 45, 45);  
+
+}
+.studentsa:hover ~div li{
+    visibility: visible;
+}
+.studentsul li:hover{
+    visibility: visible;
+}
+.studentsul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}

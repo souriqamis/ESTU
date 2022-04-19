@@ -1,0 +1,12 @@
+div{
+    text-align: center;
+}
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+img{
+    width: 1500px;
+}
+.image:hover{
+width: 1900px;
+}

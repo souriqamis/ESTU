@@ -1,0 +1,12 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 1000px;
+    margin: auto;
+}
+tr,th,td{
+    border: 1px solid black;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
